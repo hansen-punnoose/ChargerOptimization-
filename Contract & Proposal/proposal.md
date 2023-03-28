@@ -57,7 +57,7 @@ Data Structure: Multi-dimensional Array (Matrix) \
     *  [https://data.ca.gov/dataset/vehicle-fuel-type-count-by-zip-code](https://data.ca.gov/dataset/vehicle-fuel-type-count-by-zip-code)
     * [https://data.ca.gov/dataset/vehicle-fuel-type-count-by-zip-code/resource/7d2f11a4-cc88-4b3a-8b20-5fb64a3b901a/download/vehicle-count-as-of-12-31-2020.csv](https://data.ca.gov/dataset/vehicle-fuel-type-count-by-zip-code/resource/7d2f11a4-cc88-4b3a-8b20-5fb64a3b901a/download/vehicle-count-as-of-12-31-2020.csv)
 
-    **Data Format: **
+    **Data Format:**
 
 
     **		**
