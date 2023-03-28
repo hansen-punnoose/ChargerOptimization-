@@ -4,26 +4,26 @@ Hansen Punnoose, Anton Sebatian, Sijo Joseph, Tommy Park, Vinay Panayanchery
 
 **Abstract**
 
-**	How can we optimize the placement of electric vehicle (EV) charging stations in Los Altos Hills, California to maximize accessibility and meet the growing demand of EV users?**
+**How can we optimize the placement of electric vehicle (EV) charging stations in Los Altos Hills, California to maximize accessibility and meet the growing demand of EV users?**
 
 With the rapid growth of electric vehicle(EV) adoption, it is necessary to develop comprehensive and accessible charging infrastructure. In this project, we aim to optimize the placement of EV charging stations in Los Altos Hills, CA by analyzing the current distribution of charging stations and identifying areas with limited accessibility. Using a combination of open-source data and advanced algorithms, this project offers a practical and efficient approach to optimize the placement of electric vehicle (EV) charging stations in Los Altos Hills, California. By employing the A* search algorithm and carefully selected heuristics, this study identifies the shortest paths between high EV adoption areas and charging stations. The analysis will provide specific recommendations for improving charging station placement in Los Altos Hills, considering real-world constraints and trade-offs. Additionally, the study will suggest potential policy changes or incentives to encourage the expansion of charging infrastructure in areas with limited coverage or high demand. The findings and recommendations will be presented through visualizations, such as maps or charts, to illustrate the current distribution of charging stations, areas with limited coverage, and proposed optimal locations for new stations.
 
-**Major Deliverables **
+**Major Deliverables**
 
-**Deliverable 1: Road Network Graph: **
+**Deliverable 1: Road Network Graph:**
 
 Data Structure: Adjacency List 
 
 The road network graph will represent the road network of Los Altos Hills, with intersections as nodes and roads as edges. An adjacency list will be used to store the graph efficiently, allowing easy access to neighboring nodes and their respective edge weights. This will be the primary data structure for implementing the A* search algorithm.
 
-**Deliverable 2: Heuristic Function **
+**Deliverable 2: Heuristic Function**
 
 Data Structure: Heuristic Function \
 
 
 A heuristic function is needed to estimate the cost of the least expensive path from a given node to the destination node in the A* search algorithm. This function will take into account factors such as road distance, estimated travel time, or other suitable metrics. The heuristic function will be an important part of the A* algorithm implementation.
 
-**Deliverable 3: Open and Closed Sets **
+**Deliverable 3: Open and Closed Sets**
 
 Data Structure: Priority Queue (Min-Heap and Set) \
  \
