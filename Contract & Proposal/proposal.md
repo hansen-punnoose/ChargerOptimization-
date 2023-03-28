@@ -44,7 +44,7 @@ Data Structure: Multi-dimensional Array (Matrix) \
 **Dataset Acquisition and Processing**
 
 
-    **Data Access: **The data for this project will be acquired from three sources: OpenstreetMap(OSM), the national renewable energy laboratory (NREL) Alternative fueling station locator for existing charging stations, and the California DMV for adoption rates. 
+    Data Access: The data for this project will be acquired from three sources: OpenstreetMap(OSM), the national renewable energy laboratory (NREL) Alternative fueling station locator for existing charging stations, and the California DMV for adoption rates. 
 
 
 
@@ -83,7 +83,7 @@ Data Structure: Multi-dimensional Array (Matrix) \
     **	**
 
 
-    **Function Inputs: **Two primary inputs: the road network graph and the source and destination nodes.
+    Function Inputs: Two primary inputs: the road network graph and the source and destination nodes.
 
 
 
@@ -97,7 +97,7 @@ Data Structure: Multi-dimensional Array (Matrix) \
     **Function Efficiency:** The target goal for the Big O efficiency of the A* search algorithm in time complexity is O(b^d), where b is the branching factor (average number of neighbors per node) and d is the depth of the shortest solution. In practice, the actual time complexity may be much lower, depending on the effectiveness of the heuristic function in guiding the search. The memory complexity for the algorithm is also O(b^d), as it may need to store all generated nodes in the worst case
 
 
-    **Testing Strategy: **
+    **Testing Strategy:**
 
 1. Validation on small Dataset: We will begin by testing the algorithm on a smaller, well-known dataset with known optimal paths. This will help us verify the correctness of the implementation and identify any potential issues in the basic logic of the algorithm
 2. Comparison with real-world routes: After validating the implementation on a smaller dataset, we will test the algorithm on the actual road network data from Los Altos Hills. We will compare the generated paths to real-world routes and known optimal paths, considering any real-world constraints, such as traffic conditions, road closures, or construction, that may affect the route selection.
